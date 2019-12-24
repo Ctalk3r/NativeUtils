@@ -1,0 +1,20 @@
+name: CI
+
+on: [push]
+
+jobs:
+  TestDotNET:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Setup .Net
+      uses: actions/setup-dotnet@v1.2.0
+      with:
+        dotnet-version: 1.0.16
+    - name: First Build
+      run: dotnet build ./csharp/Samples.sln --configuration Release
+
+
+
+
+    
