@@ -8,7 +8,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Load submodules
-      run:
+      run: |
         git submodule init
         git submodule update --recursive
     - name: Setup .Net
