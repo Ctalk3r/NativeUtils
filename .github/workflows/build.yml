@@ -13,6 +13,10 @@ jobs:
         dotnet-version: 2.1.607
     - name: First Build
       run: dotnet build ./csharp/Samples.sln --configuration Release
+            uses: actions/upload-artifact@v1
+      with:
+        name: build
+        path: csharp/Functions.Dll/bin
 
 
 
