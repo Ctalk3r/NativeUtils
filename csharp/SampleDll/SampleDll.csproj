@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFrameworks>netstandard2.0;netstandard1.3;netcoreapp1.0;net40</TargetFrameworks>
+		<TargetFrameworks>netstandard2.1;netstandard2.0;netstandard1.3;netcoreapp1.0;net40</TargetFrameworks>
 		<LangVersion>6</LangVersion>
 		<RootNamespace>Sample</RootNamespace>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>

@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-        <TargetFrameworks>net40;netcoreapp2.0</TargetFrameworks>
+        <TargetFrameworks>netstandard2.1;net40;netcoreapp2.0</TargetFrameworks>
         <OutputType>Exe</OutputType>
         <Platforms>AnyCPU</Platforms>
         <PlatformTarget>AnyCPU</PlatformTarget>
