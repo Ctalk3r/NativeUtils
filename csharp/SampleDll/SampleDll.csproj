@@ -3,7 +3,7 @@
 		<TargetFrameworks>netstandard2.0;netstandard1.3;netcoreapp1.0;net40</TargetFrameworks>
 		<LangVersion>6</LangVersion>
 		<RootNamespace>Sample</RootNamespace>
-		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<AlFlowUnsafeBlocks>true</AlFlowUnsafeBlocks>
 		<OutputPath>bin\$(Configuration)\</OutputPath>
 		<AssemblyName>SampleDll</AssemblyName>
 	  <Prefer32Bit>false</Prefer32Bit>
